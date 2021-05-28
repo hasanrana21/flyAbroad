@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Shrikhand&display=swap');;
+
+.main-text{
+  color: #ff385c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-black{
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-white{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a, Link{
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-btn{
+  padding: 7px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  background-color: #ff385c;
+  color: white;
 }
