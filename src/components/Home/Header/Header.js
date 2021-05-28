@@ -9,7 +9,7 @@ const Header = () => {
             <div className="mt-md-5 pt-md-5">
                 <div className="row mt-md-5">
                     <div className="col-md-6">
-                        <h1 className="head-text">Travel is an <br /> in yourself</h1>
+                        <h1 className="head-text">Travel is an <br /> </h1>
                         <p className="mt-md-3">“The biggest adventure you can take is to live the life of your dreams”</p>
                         <button className="mt-md-3 main-btn">Book now</button>
                     </div>
