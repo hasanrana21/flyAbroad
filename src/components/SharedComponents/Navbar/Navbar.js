@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Navbar.css'
 import { Link } from 'react-router-dom';
+import { UserContext } from '../../../App';
 
 const Navbar = () => {
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <nav className="navbar navbar-expand-lg navbar-light me-3 ms-3 mt-md-3">
             <div className="container-fluid">
@@ -24,11 +26,13 @@ const Navbar = () => {
                         <Link to="/blog" className="nav-link nav-text nav-item me-4 link">
                             Client Satisfaction
                         </Link>
-                        <Link to="/contact" className="nav-link nav-text  nav-item me-4 link">
+                        <Link to="/login" className="nav-link nav-text  nav-item me-4 link">
                             Contact US
                         </Link>
                     </ul>
-                    <a className="userImg" href=""></a>
+                    <a className="userImg" href="/">
+                        <img src={loggedInUser.photoURL} alt="" />
+                    </a>
                 </div>
             </div>
         </nav>

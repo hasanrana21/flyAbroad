@@ -15,7 +15,12 @@
     width: 45px;
     height: 45px;
     border-radius: 100%;
-    border: 1px solid black;
+}
+.userImg img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 1px solid #ff385c;
 }
 
 .userImgIcon{
